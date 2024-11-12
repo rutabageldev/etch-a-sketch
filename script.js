@@ -7,5 +7,6 @@ function createGrid(width, height)
 
 function createGrid(width, height) {
     let totalSquares = width * height;
-    
+    const gridSquare = document.createElement("div");
+    gridSquare.classList.add(grid-square);
 }
